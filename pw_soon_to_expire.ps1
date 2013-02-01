@@ -199,10 +199,8 @@ end
 
 
 ##define where in AD to begin the search
-##$searchroot = 'DC=intranet,DC=hdr'
+$searchroot = 'DC=contoso,DC=com'
 
-$searchroot = ' OU=Nebraska,OU=United States,OU=Offices,DC=intranet,DC=hdr'
-##$searchroot = 'OU=Users,OU=Omaha-9101 Western Ave,OU=Nebraska,OU=United States,OU=Offices,DC=intranet,DC=hdr'
 ##Get the date three weeks ago
 $threeweeksago = (Get-Date).adddays(-21)
 
